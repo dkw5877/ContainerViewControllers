@@ -28,7 +28,6 @@
 		CE02EB27217E483E0014E9E6 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE02EB26217E483E0014E9E6 /* ImageLoader.swift */; };
 		CE02EB29217E4DD40014E9E6 /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE02EB28217E4DD40014E9E6 /* ContainerViewController.swift */; };
 		CE0DBE1C224E79EA00A6A453 /* HandleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0DBE1B224E79EA00A6A453 /* HandleView.swift */; };
-		CE0DBE1E224E7B2300A6A453 /* AssetLoaderBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0DBE1D224E7B2300A6A453 /* AssetLoaderBuilder.swift */; };
 		CE0DBE20224E84C700A6A453 /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0DBE1F224E84C700A6A453 /* Loader.swift */; };
 		CE136ABD225D6236009984B4 /* MarinaStory.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE136ABC225D6236009984B4 /* MarinaStory.swift */; };
 		CE136ABF225D624D009984B4 /* TajMahalStory.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE136ABE225D624D009984B4 /* TajMahalStory.swift */; };
@@ -91,7 +90,6 @@
 		CE02EB26217E483E0014E9E6 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
 		CE02EB28217E4DD40014E9E6 /* ContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
 		CE0DBE1B224E79EA00A6A453 /* HandleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandleView.swift; sourceTree = "<group>"; };
-		CE0DBE1D224E7B2300A6A453 /* AssetLoaderBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetLoaderBuilder.swift; sourceTree = "<group>"; };
 		CE0DBE1F224E84C700A6A453 /* Loader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loader.swift; sourceTree = "<group>"; };
 		CE136ABC225D6236009984B4 /* MarinaStory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarinaStory.swift; sourceTree = "<group>"; };
 		CE136ABE225D624D009984B4 /* TajMahalStory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TajMahalStory.swift; sourceTree = "<group>"; };
@@ -285,7 +283,6 @@
 			children = (
 				CE02EB26217E483E0014E9E6 /* ImageLoader.swift */,
 				CE9F0039217E7FD500C07B9E /* ListLoader.swift */,
-				CE0DBE1D224E7B2300A6A453 /* AssetLoaderBuilder.swift */,
 			);
 			path = AssetLoaders;
 			sourceTree = "<group>";
@@ -425,7 +422,6 @@
 				CE02EB0D217E21100014E9E6 /* Theme.swift in Sources */,
 				CEA3635D2193B9F400195B2E /* VerticalScrollingViewController.swift in Sources */,
 				CE5A9B6A2182977E00D3FE1D /* StoryViewController.swift in Sources */,
-				CE0DBE1E224E7B2300A6A453 /* AssetLoaderBuilder.swift in Sources */,
 				CE7FBCC9218358930043BC9D /* Profile.swift in Sources */,
 				CE02EB0F217E213B0014E9E6 /* UIColorExtension.swift in Sources */,
 				CE7FBCC7218356B80043BC9D /* Story.swift in Sources */,
