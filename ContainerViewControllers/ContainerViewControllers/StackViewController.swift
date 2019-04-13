@@ -14,8 +14,7 @@ final class StackViewController: UIViewController {
     
     private var contents:[UIViewController]
     private var portraitConstraints = [NSLayoutConstraint]()
-    private var landscapeConstraints = [NSLayoutConstraint]()
-
+  
     init(content:[UIViewController]) {
         self.contents = content
         super.init(nibName: nil, bundle: nil)
@@ -80,18 +79,6 @@ final class StackViewController: UIViewController {
             }
             NSLayoutConstraint.activate(portraitConstraints)
         }
-    }
-
-    private func printStackViewSize(){
-        print("stack view frame", stackView.frame)
-        print("stack view bounds", stackView.bounds)
-    }
-    
-    private func printContentSize(content:UIViewController) {
-        print("screen bounds: ", UIScreen.main.bounds)
-        print("content frame: ", content.view.frame)
-        print("content bounds: ", content.view.bounds)
-        print("content intrinsicContentSize: ", content.view.intrinsicContentSize)
     }
         
     /* change the stackviews axis when the device rotates */
