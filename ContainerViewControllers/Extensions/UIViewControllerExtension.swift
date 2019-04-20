@@ -28,7 +28,7 @@ extension UIViewController {
         view.addSubview(childViewController.view)
         endAddChild(child: childViewController)
     }
-
+    
     /* remove child controller */
     func remove(child childViewController:UIViewController){
         guard parent != nil else { return }
@@ -50,6 +50,9 @@ extension UIViewController {
         childViewController.endAppearanceTransition()
     }
     
+}
+
+extension UIViewController {
     /* standard fade transition between view controllers */
     func transition(to child:UIViewController, completion:((Bool)-> Void)? = nil){
         let duration = 0.25
@@ -78,6 +81,7 @@ extension UIViewController {
     }
 }
 
+
 /* let the top view controller decide if it should rotate or not */
 extension UINavigationController {
     
@@ -92,7 +96,7 @@ extension UINavigationController {
 
 /* let tabbar selected view controller decide if it should rotate or not */
 extension UITabBarController {
-
+    
     open override var shouldAutorotate:Bool {
         if let selected = selectedViewController {
             return selected.shouldAutorotate
